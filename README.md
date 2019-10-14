@@ -11,20 +11,23 @@ improved it with increasing its speed using opt tecniques.
 
 This code uses L-K approach with 2-opt & 3-opt tecniques to make the tour calculation faster.
 
-usage--------
+usage
+
 python test.py
+--------------------
 
 code flow:
+----------------
 first make edges using setedges()
 
 At each iteration calculate a temp tour   
 
 then uses opt-2 or opt-3 techniques to improve the tour
------------------------------------------------------------
+
 
 TSP.setEdges(matrixs)
 
 initial_tour = KOpt(range(len(matrixs)))
 
 path, cost = initial_tour.optimise()
------------------------------------------------------------
+
