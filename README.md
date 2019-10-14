@@ -20,5 +20,8 @@ At each iteration calculate a temp tour
 then uses opt-2 or opt-3 techniques to improve the tour
 
 TSP.setEdges(matrixs)
+
 initial_tour = KOpt(range(len(matrixs)))
+
 path, cost = initial_tour.optimise()
+
